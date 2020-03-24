@@ -23,8 +23,9 @@ function keepGoing (array, changeValue, skipValue) {
 }
 
 function findBy (array, findFn) {
+  const findFnAnswer = findFn();
   for (let i = 0; i < array.length; i++) {
-    if (array[i] === findFn()) {
+    if (array[i] === findFnAnswer) {
       return array[i];
     }
     else {
