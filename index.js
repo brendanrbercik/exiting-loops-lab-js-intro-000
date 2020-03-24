@@ -21,3 +21,7 @@ function keepGoing (array, changeValue, skipValue) {
   }
   return array;
 }
+
+findBy (array, findFn) {
+  
+}
