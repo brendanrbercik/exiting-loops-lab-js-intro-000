@@ -26,8 +26,8 @@ function findBy (array, findFn) {
   const c = findFn();
   for (let i = 0; i < array.length; i++) {
       if (c === array[i]) {
-        break;
         return (array[i]);
+        break;
       }
   }
 }
