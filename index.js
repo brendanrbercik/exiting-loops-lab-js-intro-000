@@ -28,9 +28,6 @@ function findBy (array, findFn) {
     if (array[i] === findFnAnswer) {
       return array[i];
     }
-    else {
-      continue
-    }
   }
   //return null;
 }
